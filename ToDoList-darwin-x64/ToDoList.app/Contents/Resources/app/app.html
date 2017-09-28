@@ -15,8 +15,7 @@
 
             <ul class="list-group tasks">
                 <li is="app-task" v-for="(task, index) in tasks" 
-                    :tasks="tasks" :task="task" :index="index">
-                </li>
+                    :tasks="tasks" :task="task" :index="index"></li>
             </ul>
             <p><a @click="deleteCompleted">Eliminar tareas completadas</a></p>
             <form @submit.prevent="createTask" class="new-task-form">
