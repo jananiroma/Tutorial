@@ -12,7 +12,7 @@ exports.openWindow = (filename) => {
 }
 
 exports.login = (email, password) => {
-	if(email == 'janani' && password == '1231234'){
+	if(email == 'janani@gmail.com' && password == '1231234'){
 		return 1
 	}
 	return 0
